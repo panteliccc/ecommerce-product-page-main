@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+  <div class="bg-menu"></div>
+  <div class="nav">
+    <div class="menu"><img src="images/icon-menu.svg" alt="" class="ham"><img src="images/logo.svg" alt="" class="logo">
+      <ul class="links">
+        <li><img src="images/icon-close.svg" alt="" class="close"></li>
+        <li>
+          <a href="#">Collections</a>
+        </li>
+        <li>
+          <a href="#">Men</a>
+        </li>
+        <li>
+          <a href="#">Women</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sing">
+      <img src="images/icon-cart.svg" alt="" class="btt_cart">
+      <h3 class="cart_br">0</h3>
+      <img src="images/image-avatar.png" alt="">
+    </div>
+    <div class="basket">
+      <h3 class="title_cart">Cart</h3>
+      <hr/>
+      <h3 class="text_cart">Your cart is empty</h3>
+      <div class="cart_filled">
+        <div class="first_sel">
+          <img src="images/image-product-1-thumbnail.jpg" alt="">
+          <div class="text_product_cart">
+            <p>Fall Limited Edition Sneakers</p>
+            <div class="total">
+              <p>$125.00 x </p>  
+              <p class="br_prod">0</p>
+              <p class="res"> </p>
+            </div>
+          </div>
+          <img src="images/icon-delete.svg" alt="" class="clear">
+        </div>
+        <h2>Checkout</h2>
+      </div>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="all">
+    <div class="gallery">
+      <div class="img">
+        <img src="images/icon-previous.svg" alt="" class="prev">
+        <img src="images/image-product-1.jpg" alt="" class="preview preview1 active_image">
+        <img src="images/image-product-2.jpg" alt="" class="preview preview2">
+        <img src="images/image-product-3.jpg" alt="" class="preview preview3">
+        <img src="images/image-product-4.jpg" alt="" class="preview preview4">
+        <img src="images/icon-next.svg" alt="" class="next">
+      </div>
+      <div class="light_box">
+        <img src="images/icon-white-close.svg" alt="" class="close">
+        <img src="images/icon-previous.svg" alt="" class="prev">
+        <img src="images/image-product-1.jpg" alt="" class="preview preview1 active_image">
+        <img src="images/image-product-2.jpg" alt="" class="preview preview2">
+        <img src="images/image-product-3.jpg" alt="" class="preview preview3">
+        <img src="images/image-product-4.jpg" alt="" class="preview preview4">
+        <img src="images/icon-next.svg" alt="" class="next">
+      </div>
+      <div class="small-gallery">
+        <img src="images/image-product-1-thumbnail.jpg" alt="" class="active thumbnail" id="1" >
+        <img src="images/image-product-2-thumbnail.jpg" alt="" class="thumbnail" id="2">
+        <img src="images/image-product-3-thumbnail.jpg" alt="" class="thumbnail" id="3">
+        <img src="images/image-product-4-thumbnail.jpg" alt="" class="thumbnail" id="4">
+      </div>
+    </div>
+    <div class="description">
+      <h3 class="h3" value="5">Sneaker Company</h3>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p>  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.</p>    
+    <div class="price">
+      <div class="sel">
+        <h2>$125.00</h2>
+        <h4>50%</h4>
+      </div>
+        <h2 class="old_price">$250.00</h2>
+    </div>
+    <h2 class="old_price">$250.00</h2>    
+    <div class="buy">
+      <div class="amount">
+        <img src="images/icon-minus.svg" alt="" class="minus">
+        <h2 class="quantity">0</h2>
+        <img src="images/icon-plus.svg" alt="" class="plus">
+      </div>
+      <h2 class="btt"><img src="images/icon-whitecart.svg" alt="">&nbsp;&nbsp;&nbsp;Add to cart</h2>
+    </div>
+  </div>
+  </div>
+  <button value="5" class="bt"></button>
+  <script src="main.js"></script>
+</body>
+</html>
